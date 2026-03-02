@@ -1,0 +1,232 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- BODY ---------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+}
+
+/* ---------- HEADER ---------- */
+.heading {
+    width: 100%;
+    background: linear-gradient(90deg, #0f9b0f, #38ef7d);
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ---------- SCHOOL NAME ---------- */
+#school {
+    font-size: 40px;
+    color: #e91e63;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* ---------- LOGIN SECTION ---------- */
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px;
+    align-items: center;
+}
+
+/* ---------- IMAGE ---------- */
+.image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ---------- RIGHT CARD ---------- */
+.right {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.right:hover {
+    transform: translateY(-5px);
+}
+
+/* ---------- LOGIN HEADING ---------- */
+.login_head {
+    font-size: 28px;
+    background: linear-gradient(90deg, #0f9b0f, #38ef7d);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* ---------- FORM ---------- */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form input {
+    width: 80%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+#form input:focus {
+    border-color: #0f9b0f;
+    box-shadow: 0 0 5px rgba(15,155,15,0.5);
+}
+
+/* ---------- BUTTON ---------- */
+#submit {
+    width: 50%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ffc107;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    background: #ff9800;
+    transform: scale(1.05);
+}
+  /* --------------student form -------------- */
+
+  table,
+td,
+th {
+border: 1px solid #ddd;
+text-align: left;
+
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin: auto;
+margin-top: 50px;
+
+
+}
+
+th,
+td {
+padding: 15px;
+text-align: center;
+}
+
+tr > th {
+background-color: teal;
+color: white;
+}
+
+.studentData{
+    width: 100%;
+    background-color: green;
+    padding: 15px;
+
+}
+#form1{
+    margin: auto;
+    width: 80%;
+    
+}
+#form1 input{
+    padding: 10px ;
+    margin-right: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#form1 input:focus{
+    outline: none;
+}
+
+.td6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.td6 > button{
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+} 
+
+.td6 > button:nth-child(1){
+    background-color: green;
+}
+.td6 > button:nth-child(2){
+    background-color: red;
+}
+
+#absent{
+    background-color: red;
+}
+
+/* Download Button */
+.download-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+/* Delete Button */
+.delete-btn {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
